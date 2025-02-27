@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.swiper{
+    width: 499px;
+    height: 619px;
+    margin: 150px auto;
+}
+
+.swiper-slide img{
+    width: 100%;
+    height: 100%;
+}
+.header{
+    margin: 0 auto;
+    width: 1428px;
+    background-color: #bbb4b4;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 1418px;
+    height: 64px;
+
+    
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    gap: 90px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;    
+}
+.nav button{
+    width: 168px;
+    height: 54px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+
+}
+.container{
+    display: flex;
+    align-items: center;
+    gap: 104px;
+    
+}
+.text{
+    margin-left: 105px;
+}
+.text h1{
+    font-family: Sofia Sans;
+    font-weight: 900;
+    font-size: 76px;
+    line-height: 104.12px;
+    color: white;
+}
+.text h2{
+    font-family: Sofia Sans;
+    font-weight: 900;
+    font-size: 52px;
+    line-height: 60.06px;
+    letter-spacing: -1%;
+    color: white;
+    margin-top: 6px;
+}
+.text p{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 45.6px;
+    width: 613px;
+    height: 138px;
+    margin-top: 70px;
+}
+.text h3{
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 95.9px;
+    color: white;
+    margin-top: 38px;
+
+}
